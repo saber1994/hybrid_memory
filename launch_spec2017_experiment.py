@@ -21,7 +21,8 @@ if __name__ == "__main__":
                   "525.x264_r", "531.deepsjeng_r", "541.leela_r", "548.exchange2_r", "557.xz_r", "999.specrand_ir",
                   "600.perlbench_s", "602.gcc_s", "605.mcf_s", "620.omnetpp_s", "623.xalancbmk_s", "625.x264_s",
                   "631.deepsjeng_s", "641.leela_s", "648.exchange2_s", "657.xz_s", "998.specrand_is"]
-
+    
+    benchmarks = ["503.bwaves_r"]
     runs = []
     for cpu in cpus:
         for size in benchmark_sizes[cpu]:
